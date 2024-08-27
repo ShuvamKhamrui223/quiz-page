@@ -1,0 +1,145 @@
+@import url(basic.css);
+@import url(Animations.css);
+
+.btns {
+    width: fit-content;
+    height: 10vh;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    z-index: 2;
+    padding-right: 4rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-end;
+    padding-inline: 1rem;
+    background-color: var(--btnsBgColor);
+    transition: all 0.4s ease;
+  
+}
+
+.btns.hide {
+    left: -100%;
+    transform: skewY(60deg);
+}
+
+#themeBtn {
+    height: calc(var(--baseHeightWidth)*4);
+    width: calc(var(--baseHeightWidth)*4);
+    color: var(--themeBtnTextColor);
+    font-size: calc(var(--baseFontSize)*2);
+    background-color: var(--themeBtnBgColor);
+}
+
+#themeBtn:hover {
+    background-color: var(--themeBtnBgColorHover);
+    color: var(--themeBtnTextColorHover);
+    border: 0.1rem solid var(--themeBtnBgColor);
+}
+
+#startBtn,
+#playAgainBtn {
+    padding: var(--basePadding) calc(var(--basePadding)*2);
+    color: var(--startBtnTextColor);
+    font-size: calc(var(--baseFontSize)*4);
+    background-color: var(--startBtnBgColor);
+}
+
+#loginBtn,
+#createAccountBtn {
+    padding: var(--basePadding) calc(var(--basePadding));
+    font-size: calc(var(--baseFontSize)*2);
+    color: var(--headingColor);
+}
+
+#loginBtn {
+    background-color: var(--loginBtnBgColor);
+    border: 0.2rem solid var(--loginBtnBgColor);
+}
+
+#createAccountBtn {
+    background-color: transparent;
+    color: var(--createAccountBtnTextColor);
+    border: 0.2rem solid var(--createAccountBtnBorderColor);
+}
+
+#loginBtn:hover {
+    background-color: transparent;
+    color: var(--loginBtnHoverTextColor);
+}
+
+#createAccountBtn:hover {
+    background-color: var(--createAccountBtnBorderColor);
+    color: var(--headingColor);
+}
+
+#playAgainBtn {
+    display: none;
+}
+
+#playAgainBtn.show {
+    display: block;
+}
+
+#logoutBtn {
+    padding: var(--basePadding);
+    font-size: calc(var(--baseFontSize)*2);
+    color: var(--logoutBtnTextColor);
+    background-color: transparent;
+    border: 0.2rem solid red;
+    cursor: pointer;
+}
+
+#logoutBtn:hover {
+    background-color: var(--logoutBtnTextColor);
+    color: var(--logoutBtnTextColorHover);
+}
+
+#username {
+    font-size: calc(var(--baseFontSize)*2);
+    font-family: var(--headingFontFamily);
+    color: var(--usernameColor);
+    cursor: pointer;
+}
+
+/* CSS for startBox starts here */
+.startBox {
+    width: 70%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 2rem;
+    background-color: var(--startBoxBgColor);
+    border: 1rem solid var(--startBoxBorderColor);
+}
+
+.startBox.hide {
+    display: none;
+}
+
+.startBox::before {
+    content: '';
+    width: calc(var(--baseHeightWidth)*10);
+    height: calc(var(--baseHeightWidth)*10);
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    z-index: -1;
+    background-color: var(--startBoxAfterBgColor);
+    animation: move 20s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+}
+
+.startBox::after {
+    content: '';
+    width: calc(var(--baseHeightWidth)*10);
+    height: calc(var(--baseHeightWidth)*10);
+    position: absolute;
+    bottom: -5%;
+    right: -5%;
+    background-color: var(--startBoxAfterBgColor);
+    animation: moveUp 20s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+}

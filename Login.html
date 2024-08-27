@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app - Login</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+    <form id="loginForm">
+        <strong>login</strong>
+        <span id="loginErrorMsg"></span>
+        <div class="inputBox">
+            <label for="usernameField">username<sup>*</sup></label>
+            <input type="text" class="inputField" id="loginUsernameField" minlength="6" maxlength="10"
+                pattern="[a-zA-Z0-9]{10}" title="Username must be 10 characters containing a-z, A-Z and 0-9"
+                placeholder="Enter username" required>
+        </div>
+
+        <div class="inputBox">
+            <label for="passwordField">password<sup>*</sup></label>
+            <input type="password" class="inputField" id="loginPasswordField" placeholder="Password" minlength="6"
+                maxlength="8" pattern="[a-zA-Z0-9]{8}" title="Username must be 8 characters containing a-z, A-Z and 0-9"
+                placeholder="Enter username" required>
+        </div>
+        <button id="createAccountFormBtn">login</button>
+
+    </form>
+    <h2 id="loginMsg" hidden>welcome back</h2>
+    <script src="Login.js"></script>
+</body>
+
+</html>

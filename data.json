@@ -1,0 +1,602 @@
+[
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What breed of dog was Marley in the film &quot;Marley &amp; Me&quot; (2008)?",
+        "correct_answer": "Labrador Retriever",
+        "incorrect_answers": [
+            "Golden Retriever",
+            "Dalmatian",
+            "Shiba Inu"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following is NOT a quote from the 1942 film Casablanca? ",
+        "correct_answer": "&quot;Frankly, my dear, I don&#039;t give a damn.&quot;",
+        "incorrect_answers": [
+            "&quot;Here&#039;s lookin&#039; at you, kid.&quot;",
+            "&ldquo;Of all the gin joints, in all the towns, in all the world, she walks into mine&hellip;&rdquo;",
+            "&quot;Round up the usual suspects.&quot;"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which movie released in 2016 features Superman and Batman fighting?",
+        "correct_answer": "Batman v Superman: Dawn of Justice",
+        "incorrect_answers": [
+            "Batman v Superman: Superapocalypse",
+            "Batman v Superman: Black of Knight",
+            "Batman v Superman: Knightfall"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the movie &ldquo;The Iron Giant,&rdquo; this character is the protagonist.",
+        "correct_answer": "Hogarth Hughes",
+        "incorrect_answers": [
+            "Kent Mansley",
+            "Dean McCoppin",
+            "Annie Hughes"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who wrote and directed the 1986 film &#039;Platoon&#039;?",
+        "correct_answer": "Oliver Stone",
+        "incorrect_answers": [
+            "Francis Ford Coppola",
+            "Stanley Kubrick",
+            "Michael Cimino"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who played the female lead in the 1933 film &quot;King Kong&quot;?",
+        "correct_answer": "Fay Wray",
+        "incorrect_answers": [
+            "Jean Harlow",
+            "Vivien Leigh",
+            "Mae West"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who voiced the character Draco in the 1996 movie &#039;DragonHeart&#039;?",
+        "correct_answer": "Sean Connery",
+        "incorrect_answers": [
+            "Dennis Quaid",
+            "Pete Postlethwaite",
+            "Brian Thompson"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the name of the robot in the 1951 science fiction film classic &#039;The Day the Earth Stood Still&#039;?",
+        "correct_answer": "Gort",
+        "incorrect_answers": [
+            "Robby",
+            "Colossus",
+            "Box"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following James Bond villains is not affiliated with the SPECTRE organization?",
+        "correct_answer": "Auric Goldfinger",
+        "incorrect_answers": [
+            "Dr. Julius No",
+            "Rosa Klebb",
+            "Emilio Largo"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "This movie contains the quote, &quot;I feel the need ... the need for speed!&quot;",
+        "correct_answer": "Top Gun",
+        "incorrect_answers": [
+            "Days of Thunder",
+            "The Color of Money",
+            "Cocktail"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "This movie contains the quote, &quot;Nobody puts Baby in a corner.&quot;",
+        "correct_answer": "Dirty Dancing",
+        "incorrect_answers": [
+            "Three Men and a Baby",
+            "Ferris Bueller&#039;s Day Off",
+            "Pretty in Pink"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In which African country was the 2006 film &#039;Blood Diamond&#039; mostly set in?",
+        "correct_answer": "Sierra Leone",
+        "incorrect_answers": [
+            "Liberia",
+            "Burkina Faso",
+            "Central African Republic"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the name of the dog that played Toto in the 1939 film &quot;The Wizard of Oz&quot;?",
+        "correct_answer": "Terry",
+        "incorrect_answers": [
+            "Tommy",
+            "Teddy",
+            "Toto"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In what year was the first Transformers movie released?",
+        "correct_answer": "1986",
+        "incorrect_answers": [
+            "2007",
+            "1984",
+            "2009"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What does TIE stand for in reference to the TIE Fighter in &quot;Star Wars&quot;?",
+        "correct_answer": "Twin Ion Engine",
+        "incorrect_answers": [
+            "Twin Iron Engine",
+            "Twin Intercepter Engine",
+            "Twin Inception Engine"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of these actors\/actresses is NOT a part of the cast for the 2016 movie &quot;Suicide Squad&quot;?",
+        "correct_answer": "Scarlett Johansson",
+        "incorrect_answers": [
+            "Jared Leto",
+            "Will Smith",
+            "Margot Robbie"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who plays Alice in the Resident Evil movies?",
+        "correct_answer": "Milla Jovovich",
+        "incorrect_answers": [
+            "Madison Derpe",
+            "Milla Johnson",
+            "Kim Demp"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who played Baron Victor Frankestein in the 1957 Hammer horror film &quot;The Curse of Frankenstein&quot;?",
+        "correct_answer": "Peter Cushing",
+        "incorrect_answers": [
+            "Boris Karloff",
+            "Vincent Price",
+            "Lon Chaney Jr."
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the 2010 Nightmare on Elm Street reboot, who played Freddy Kruger?",
+        "correct_answer": "Jackie Earle Haley",
+        "incorrect_answers": [
+            "Tyler Mane",
+            "Derek Mears",
+            "Gunnar Hansen"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The 1939 movie &quot;The Wizard of Oz&quot; contained a horse that changed color, what material did they use to achieve this effect?",
+        "correct_answer": "Gelatin",
+        "incorrect_answers": [
+            "Dye",
+            "Paint",
+            "CGI Effect"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which one of these action movies are shot entirely in one take?",
+        "correct_answer": "Victoria",
+        "incorrect_answers": [
+            "Ip Man 2",
+            "The Bourne Legacy",
+            "L&eacute;on: The Professional"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the correct phrase for the Latin saying &quot;Romanes Eunt Domus&quot; in Monty Python&#039;s Life of Brian?",
+        "correct_answer": "Romani Ite Domum",
+        "incorrect_answers": [
+            "Romans Go Home",
+            "Roxani Ite Domum",
+            "Tomate Ite Domum"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who played Sgt. Gordon Elias in &#039;Platoon&#039; (1986)?",
+        "correct_answer": "Willem Dafoe",
+        "incorrect_answers": [
+            "Charlie Sheen",
+            "Matt Damon",
+            "Johnny Depp"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who voices the main character Blu in the 2011 animated film &quot;Rio&quot;?",
+        "correct_answer": "Jesse Eisenberg",
+        "incorrect_answers": [
+            "Michael Cera",
+            "Jonah Hill",
+            "Zach Galifianakis"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the movie &quot;Spaceballs&quot;, what are the Spaceballs attempting to steal from Planet Druidia?",
+        "correct_answer": "Air",
+        "incorrect_answers": [
+            "The Schwartz",
+            "Princess Lonestar",
+            "Meatballs"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What was the first monster to appear alongside Godzilla?",
+        "correct_answer": "Anguirus",
+        "incorrect_answers": [
+            "King Kong",
+            "Mothra",
+            "King Ghidora"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which animated film did Steven Lisberger direct in 1980 before going on to direct Tron?",
+        "correct_answer": "Animalympics",
+        "incorrect_answers": [
+            "The Fox and the Hound",
+            "The Black Cauldron",
+            "The Great Mouse Detecive"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What year did the James Cameron film &quot;Titanic&quot; come out in theaters?",
+        "correct_answer": "1997",
+        "incorrect_answers": [
+            "1996",
+            "1998",
+            "1999"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who played the Cenobite called &quot;Pinhead&quot; in the original Hellraiser films?",
+        "correct_answer": "Doug Bradley",
+        "incorrect_answers": [
+            "Doug Jones",
+            "Doug Savant",
+            "Doug Benson"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the correct spelling of the protagonist of the book in The NeverEnding Story (1984)?",
+        "correct_answer": "Atreyu",
+        "incorrect_answers": [
+            "Atrayu",
+            "Atraiyu",
+            "Atraeyu"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "&quot;The first rule is: you don&#039;t talk about it&quot; is a reference to which movie?",
+        "correct_answer": "Fight Club",
+        "incorrect_answers": [
+            "The Island",
+            "Unthinkable",
+            "American Pie"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the movie &quot;Blade Runner&quot;, what is the term used for human-like androids ?",
+        "correct_answer": "Replicants",
+        "incorrect_answers": [
+            "Cylons",
+            "Synthetics",
+            "Skinjobs"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who was the director of &quot;Scott Pilgrim vs. the World (2010)&quot;?",
+        "correct_answer": "Edgar Wright",
+        "incorrect_answers": [
+            "Phil Lord",
+            "Chris Miller",
+            "Seth Rogan"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In what year did Clint Eastwood star as Inspector Harry Callahan in the film &quot;Dirty Harry&quot;?",
+        "correct_answer": "1971",
+        "incorrect_answers": [
+            "1975",
+            "1983",
+            "1969"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which documentary film maker wrote and starred in the film &quot;My Scientology Movie&quot; which first debuted in 2015?",
+        "correct_answer": "Louis Theroux",
+        "incorrect_answers": [
+            "Errol Morris",
+            "Joe Berlinger",
+            "Adam Curtis"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the &quot;Jurassic Park&quot; universe, what is the name of the island that contains InGen&#039;s Site B?",
+        "correct_answer": "Isla Sorna",
+        "incorrect_answers": [
+            "Isla Nublar",
+            "Isla Pena",
+            "Isla Muerta"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In what year does Jurassic World open in the &quot;Jurassic Park&quot; universe?",
+        "correct_answer": "2005",
+        "incorrect_answers": [
+            "2007",
+            "2015",
+            "2020"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Before &quot;Jurassic Park III&quot; was finalized and the Spinosaurus was chosen, which dinosaur was going to be the star?",
+        "correct_answer": "Baryonyx",
+        "incorrect_answers": [
+            "Tyrannosaurus Rex",
+            "Velociraptor",
+            "Suchomimus"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What is the species of the &quot;Predator&quot; in the 1987 movie &quot;Predator&quot;?",
+        "correct_answer": "Yautja",
+        "incorrect_answers": [
+            "Xenomorph",
+            "Praetorian",
+            "Phocrex"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Mulan (1998), who is the leader of the Huns?",
+        "correct_answer": "Shan Yu",
+        "incorrect_answers": [
+            "Chien-Po",
+            "Li Shang",
+            "Fa Zhou"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the Friday The 13th series, what year did Jason drown in?",
+        "correct_answer": "1957",
+        "incorrect_answers": [
+            "1955",
+            "1953",
+            "1959"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of these Movies was NOT released in 1996?",
+        "correct_answer": "Gladiator",
+        "incorrect_answers": [
+            "Independence Day",
+            "The Rock",
+            "Mission: Impossible"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which sci-fi cult films plot concerns aliens attempting to prevent humans from creating a doomsday weapon?",
+        "correct_answer": "Plan 9 from Outer Space",
+        "incorrect_answers": [
+            "The Man from Planet X",
+            "It Came from Outer Space",
+            "The Day The Earth Stood Still"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who directed the Kill Bill movies?",
+        "correct_answer": "Quentin Tarantino",
+        "incorrect_answers": [
+            "Arnold Schwarzenegger",
+            "David Lean",
+            "Stanley Kubrick"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who performed the opening theme song for the James Bond 007 movie &quot;Goldfinger&quot;?",
+        "correct_answer": "Shirley Basey",
+        "incorrect_answers": [
+            "Tom Jones",
+            "John Barry",
+            "Sheena Easton"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following films was NOT directed by Quentin Tarantino?",
+        "correct_answer": "From Dusk till Dawn",
+        "incorrect_answers": [
+            "Jackie Brown",
+            "Pulp Fiction",
+            "Reservoir Dogs"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following actors does not play a role in the movie &quot;The Usual Suspects?&quot;",
+        "correct_answer": "Steve Buscemi",
+        "incorrect_answers": [
+            "Kevin Spacey",
+            "Benicio Del Toro",
+            "Gabriel Byrne"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the birth name of Michael Caine?",
+        "correct_answer": "Maurice Micklewhite",
+        "incorrect_answers": [
+            "Morris Coleman",
+            "Carl Myers",
+            "Martin Michaels"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the birth name of Michael Keaton?",
+        "correct_answer": "Michael Douglas",
+        "incorrect_answers": [
+            "Michael Fox",
+            "Michael Richards",
+            "Michael Kane"
+        ]
+    },
+    {
+        "category": "Entertainment: Film",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The 1996 film &#039;Fargo&#039; is primarily set in which US state?",
+        "correct_answer": "Minnesota",
+        "incorrect_answers": [
+            "North Dakota",
+            "South Dakota",
+            "Wisconsin"
+        ]
+    }
+]

@@ -1,0 +1,93 @@
+@import url(Animations.css);
+
+.quizContainer {
+    width: 70%;
+    height: 40vh;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 2rem;
+    padding: var(--basePadding) calc(var(--basePadding)*1.5);
+    background-color: var(--quizContainerBgColor);
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    box-shadow:
+        0.5rem 0.2rem 0.4rem 0.6rem var(--quizContainerBxShadowColorOne),
+        -0.5rem -0.2rem 0.4rem 0.6rem var(--quizContainerBxShadowColorTwo);
+}
+
+.quizContainer.show {
+    display: flex;
+}
+
+.question {
+    font-size: calc(var(--baseFontSize)*2);
+    font-weight: 500;
+    color: var(--questionTextColor);
+    padding-inline: 1.5rem;
+}
+
+.quizContainer>.optionsContainer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--baseHeightWidth)*0.2);
+    padding: var(--basePadding) calc(var(--basePadding)*0.5);
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.optionsContainer>label {
+    padding: var(--basePadding);
+    font-size: calc(var(--baseFontSize)*1.5);
+}
+
+.question::first-letter,
+.option::first-letter {
+    text-transform: uppercase;
+}
+
+.optionsContainer>label:hover {
+    background-color: var(--optionBgColorHover);
+}
+
+input[type="radio"] {
+    appearance: none;
+}
+
+.optionsContainer>label:active {
+    background-color: var(--optionBgColorActive);
+}
+
+/* CSS for timerBox starts here */
+.timerBox {
+    display: flex;
+    width: fit-content;
+    padding: var(--basePadding) calc(var(--basePadding)*1.5);
+    background-color: var(--timerBoxBgColor);
+    animation: breath 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+}
+
+.timerContent {
+    font-size: calc(var(--baseFontSize)*4);
+}
+
+.timerBox.hide {
+    display: none;
+}
+
+.questionNo {
+    font-size: calc(var(--baseFontSize)*4);
+    font-weight: 700;
+    text-align: right;
+    color: var(--QuestionNoTextColor);
+}
+
+.questionNo>sup {
+    font-size: calc(var(--baseFontSize)*3.5);
+    color: var(--currentQuestionTextColor);
+}
+
+.questionNo>sub {
+    font-size: calc(var(--baseFontSize)*3);
+}

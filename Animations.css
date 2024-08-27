@@ -1,0 +1,60 @@
+@keyframes move {
+    0% {
+        top: 0;
+        opacity: 0;
+    }
+
+    50% {
+        top: 90%;
+        opacity: 1;
+        border-radius: 50%;
+    }
+
+    100% {
+
+        opacity: 0;
+        top: 0;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        bottom: -5%;
+    }
+
+    50% {
+        bottom: 90%;
+        border-radius: 50%;
+    }
+
+    100% {
+        bottom: -5%;
+    }
+}
+
+@keyframes breath {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: .4;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}

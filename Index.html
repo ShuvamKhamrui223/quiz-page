@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Media_Querry.css">
+    <!-- Dynamic CSS imports -->
+    <link rel="stylesheet" id="cssThemeLink" href="">
+    <link rel="stylesheet" id="cssQuizContainerLink" href="">
+    <link rel="stylesheet" id="cssScoreboardLink" href="">
+</head>
+
+<body>
+    <nav class="btns">
+        <a href="Login.html" id="loginBtn">login</a>
+        <a href="CreateAccountPage.html" id="createAccountBtn">create an account</a>
+        <button id="themeBtn" title="Switch to light theme">◐</button>
+    </nav>
+
+    <div class="startBox">
+        <h1>Let's test your knowledge</h1>
+        <button id="startBtn">start quiz</button>
+    </div>
+
+    <div class="timerBox hide" hidden>
+        <h1 class="timerContent">00:<span id="remainingTime"></span></h1>
+    </div>
+
+    <div class="quizContainer" hidden>
+        <h3 class="questionNo"><span id="currentQuestion"></span> of <span id="totalQuestion"></span></h3>
+        <p class="question"></p>
+        <ol type="A" class="optionsContainer">
+            <input type="radio" name="quizOption" id="option1">
+            <label for="option1">
+                <li class="option" tabindex="1">
+                </li>
+            </label>
+            <input type="radio" id="option2" name="quizOption">
+            <label for="option2">
+                <li class="option" tabindex="2">
+                </li>
+            </label>
+            <input type="radio" id="option3" name="quizOption">
+            <label for="option3">
+                <li class="option" tabindex="3">
+                </li>
+            </label>
+            <input type="radio" id="option4" name="quizOption">
+            <label for="option4">
+                <li class="option" tabindex="4">
+                </li>
+            </label>
+        </ol>
+    </div>
+
+    <div id="scoreboardContainer" hidden>
+        <q id="scoreboardMsg"></q>
+        <h1>score:<span id="score"></span></h1>
+    </div>
+    <button id="playAgainBtn">play again</button>
+
+    <!-- <section class="profileContainer">
+        <div>
+            <span>name</span>:
+            <p>shuvam</p>
+        </div>
+        <div>
+            <span>name</span>:
+            <p>shuvam</p>
+        </div>
+        <div>
+            <span>name</span>:
+            <p>shuvam</p>
+        </div>
+        <div>
+            <span>name</span>:
+            <p>shuvam</p>
+        </div>
+    </section> -->
+
+
+</body>
+<script src="Main.js"></script>
+<script src="CheckAuthenticationState.js"></script>
+<script src="Theme.js"></script>
+<script src="Logout.js"></script>
+
+</html>

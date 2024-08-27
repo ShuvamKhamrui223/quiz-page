@@ -1,0 +1,86 @@
+/* @import url(basic.css);
+@import url(Light.css);
+@import url(Media_Querry.css); */
+@import url(createAccountPage.css);
+
+#loginForm {
+   
+    display: grid;
+    gap: 0.2rem;
+    grid-template-columns: repeat(1fr, 2);
+    grid-template-rows: repeat(1fr, 4);
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--startBoxBgColor);
+    transition: all 1s cubic-bezier(1, 0, 0, 1);
+    box-shadow: 0 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
+    transition: all 2s;
+    opacity: 1;
+    /* transform: translateY(-100%); */
+}
+
+#loginForm.show {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+#loginForm.hide {
+    transform: skewX(80deg) translateY(150%);
+    z-index: -2;
+    opacity: 0;
+}
+
+#loginErrorMsg {
+    font-size: calc(var(--baseFontSize)*1.6);
+    color: red;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    height: 0;
+    opacity: 0;
+}
+
+#loginErrorMsg.show {
+    height: auto;
+    opacity: 1;
+}
+
+#loginMsg {
+    font-size: calc(var(--baseFontSize)*4);
+    font-weight: 700;
+    text-align: center;
+    color: var(--headingColor);
+    display: none;
+    animation: expand 2s cubic-bezier(1, 0, 0, 1);
+    animation-play-state: paused;
+    font-family: var(--headingFontFamily);
+    padding: calc(var(--basePadding)*5);
+    transition: all 0.2s;
+}
+
+#loginMsg::first-letter {
+    text-transform: uppercase;
+}
+
+#loginMsg.show {
+    display: block;
+    animation-play-state: running;
+}
+
+@keyframes expand {
+
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(5);
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(7);
+    }
+}

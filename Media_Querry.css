@@ -1,0 +1,44 @@
+/* Media querries */
+
+@media (max-width:768px) {
+    html {
+        font-size: 55%;
+    }
+
+    .startBox::before,
+    .startBox::after {
+        height: calc(var(--baseHeightWidth)*7);
+        width: calc(var(--baseHeightWidth)*7);
+    }
+    #createAccountForm,#loginForm {
+        width: 50vw;
+    }
+}
+
+
+@media (max-width:425px) {
+    html {
+        font-size: 45%;
+    }
+
+    .startBox::before,
+    .startBox::after {
+        height: calc(var(--baseHeightWidth)*4);
+        width: calc(var(--baseHeightWidth)*4);
+    }
+
+    #createAccountForm,#loginForm {
+        width: 70vw;
+    }
+}
+
+@media (max-width:375px) {
+    html {
+        font-size: 40%;
+    }
+
+    .startBox::before,
+    .startBox::after {
+        display: none;
+    }
+}

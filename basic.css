@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    user-select: none;
+    color-scheme: dark light;
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: var(--buttonFontFamily);
+    border-radius: 0.4rem;
+    transition: all 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: calc(var(--baseHeightWidth)*3);
+    overflow: hidden;
+    background-image: linear-gradient(to right, var(--gradientColorOne), var(--gradientColorTwo));
+}
+
+h1 {
+    font-size: calc(var(--baseFontSize)*5);
+    font-weight: 700;
+    text-align: center;
+    color: var(--headingColor);
+    font-family: var(--headingFontFamily);
+    padding-block: calc(var(--basePadding)*2);
+}
+
+h1::first-letter {
+    text-transform: uppercase;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    transform: scale(1);
+    border-radius: 4rem;
+    transition: all 0.2s ease;
+    text-transform: capitalize;
+    font-family: var(--buttonFontFamily);
+}
+
+button:hover {
+    transform: scale(1.01);
+    background-color: var(--buttonBgColorHover);
+}
+
+button:active {
+    transform: scale(.8);
+    background-color: var(--buttonBgColorActive);
+}

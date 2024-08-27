@@ -1,0 +1,24 @@
+#scoreboardContainer {
+    width: 70vw;
+    height: 40vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 2rem;
+    transform: translateY(150%);
+    transition: all 1.5s ease-out;
+    background-color: var(--startBoxBgColor);
+    border: 1rem solid var(--startBoxBorderColor);
+}
+
+#scoreboardContainer.show {
+    display: flex;
+    transform: translateY(0%);
+}
+
+#scoreboardContainer>#scoreboardMsg {
+    font-size: calc(var(--baseFontSize)*2);
+    color: var(--headingColor);
+    text-transform: uppercase;
+}
